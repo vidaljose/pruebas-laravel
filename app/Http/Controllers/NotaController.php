@@ -15,6 +15,7 @@ class NotaController extends Controller
         $nota -> titulo = $request -> titulo;
         $nota -> contenido = $request -> contenido;
         $nota -> save();
+        //dd($nota); //genial :D 
         // dd($nota);
         //return view('save');
         return redirect('/inicio');
